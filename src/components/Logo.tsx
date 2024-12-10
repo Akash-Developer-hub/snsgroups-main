@@ -6,31 +6,31 @@ interface LogoProps {
 export const Logo = ({ className }: LogoProps) => {
   const segments = [
     { 
-      color: '#FF6B00', 
+      color: '#01A3D4', 
       percentage: 15,
       title: 'SNS Venture Capital & Investment',
       description: 'Strategic investment opportunities and financial solutions for growing businesses'
     },
     { 
-      color: '#00BFFF', 
+      color: '#EB510B', 
       percentage: 15,
       title: 'SNS Square Technologies',
       description: 'Cutting-edge technology solutions and digital transformation services'
     },
     { 
-      color: '#FF1493', 
+      color: '#E10485', 
       percentage: 15,
       title: 'SNS Innovation Hub',
       description: 'Fostering innovation and entrepreneurship through collaborative spaces'
     },
     { 
-      color: '#90FF00', 
+      color: '#B0D402', 
       percentage: 15,
       title: 'SNS Institutions',
       description: 'Quality education and professional development programs'
     },
     { 
-      color: '#FF4444', 
+      color: '#DE2A1B', 
       percentage: 15,
       title: 'SNS Spine',
       description: 'Advanced healthcare solutions and medical services'

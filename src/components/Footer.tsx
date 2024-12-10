@@ -6,7 +6,10 @@ import { faGlobe, faHandshake, faLocationDot, faPhone } from "@fortawesome/free-
 
 const Footer: React.FC = () => {
   return (
-    <footer className="bg-white text-black py-10 flex flex-col items-center text-center">
+    <footer className="bg-white text-black py-1 flex flex-col items-center text-center">
+      {/* Horizontal Line */}
+      <div className="w-full border-t border-gray-800 mb-6"></div>
+
       {/* Logo Section */}
       <img
         src={group45}
@@ -25,14 +28,14 @@ const Footer: React.FC = () => {
         <div className="flex-1 px-4 mb-9 md:mb-0 md:flex md:flex-col md:items-center md:justify-center">
           <h2 className="text-lg font-bold mb-2"></h2>
           <p className="text-sm leading-6 max-w-xs">
-            536, Thudiyalur - Saravanampatti Rd, Fathima Nagar, Vellakinar, Coimbatore, Tamil Nadu 641029
+            536, Thudiyalur - Saravanampatti Rd, Vellakinar, Coimbatore, Tamil Nadu 641029
           </p>
         </div>
 
         {/* Locations Heading */}
         <div className="flex-1 px-4 mb-6 sm:mt-4 md:mb-0 md:flex md:flex-col md:items-center md:justify-center">
           <p className="text-sm leading-6 max-w-xs">
-            The Community Team, WeWork Office, BLOCK-L, Embassy TechVillage,
+            WeWork Office, BLOCK-L, Embassy TechVillage,
             Outer Ring Rd, Devarabisanahalli, Bellandur, Bengaluru, <br /> Karnataka 560103.
           </p>
         </div>

@@ -11,7 +11,7 @@ const menuItems = [
     title: "SNS Venture Capital & Investment",
     desc:'Funding high-potential startups for strategic ownership stakes',
     
-    color: "#E10485",
+    color: "#DE2A1B",
     bgColor: "linear-gradient(to right, #f9e7e1, #ff5c22)"
   },
   {
@@ -19,7 +19,7 @@ const menuItems = [
     title: "SNS Square Technologies",
     desc:"Driving digital transformation with cutting-edge IT and software solutions. ",
     link:'https://www.snssquare.com/',
-    color: "#EB510B",
+    color: "#B0D402",
     bgColor: "linear-gradient(to right, #d8f3a3, #c5ff1b)"
   },
   {
@@ -27,7 +27,7 @@ const menuItems = [
     title: "SNS Innovation Hub",
     desc:"Empowering entrepreneurs with mentorship, resources and a platform for innovation.",
     link:'https://snsihub.ai/',
-    color: "#01A3D4",
+    color: "#E10485",
     bgColor: "linear-gradient(to right, #f4a4c4, #ff1e5f)"
   },
   {
@@ -35,7 +35,7 @@ const menuItems = [
     title: "SNS Institutions",
     desc:'Fostering holistic growth through high-quality education.',
     link:'https://main.snsgroups.com/',
-    color: "#DE2A1B",
+    color: "#EB510B",
     bgColor: "linear-gradient(to right, #ffb390, #ff5714)"
   },
   {
@@ -43,7 +43,7 @@ const menuItems = [
     title: "SNS Spine",
     desc:'Enabling mental and physical well-being through sports, gaming, entertainment and clubs.',
     link:'https://snsspine.in/',
-    color: "#B0B402",
+    color: "#01A3D4",
     bgColor: "linear-gradient(to right, #89eaf2, #13e8ff)"
   }
 ];
@@ -80,7 +80,7 @@ const menuItems = [
                         left: `${radius + x}px`,
                         top: `${radius + y}px`,
                         animationDelay: `${index * 0.1}s`,
-                        width: '350px' // Fixed width for menu items
+                        width: '450px' // Fixed width for menu items
                       }}
                     >
                       <MenuItem {...item} />
